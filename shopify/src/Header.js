@@ -8,7 +8,8 @@ function Header() {
     return (
         <nav className="header">
             <Link to="/login">
-            <h1 className="header__logo">Shopify</h1>
+            <h1 className="header__logo">Shopi</h1>
+            <h1 className="header__logo">fy</h1>
             
 
             </Link>
@@ -18,6 +19,36 @@ function Header() {
            
             </div>
 
+            <div className="header__nav">
+          <Link to="/login" className="header__link"> 
+          <div className="header__option">
+          <span className="header__lineone">Hello</span>
+          <span className="header__linetwo">SignIn</span></div>
+          
+          
+          </Link>
+          <Link to="/" className="header__link"> 
+          <div className="header__option">
+          <span className="header__lineone">Returns</span>
+          <span className="header__linetwo">Orders</span></div>
+          
+          
+          </Link>
+          <Link to="/" className="header__link"> 
+          <div className="header__option">
+          <span className="header__lineone">Your</span>
+          <span className="header__linetwo">Prime</span></div>
+            </Link>
+
+            <Link to="/checkout" className="header__link">
+                <div className="header__optionbasket">
+                    <span>CART</span>
+                    
+                    <span className="header__basketcount">0</span>
+          
+            </div>
+            </Link>
+     </div>
         </nav>
     );
 }
