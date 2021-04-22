@@ -7,9 +7,9 @@ import './Header.css';
 function Header() {
     return (
         <nav className="header">
-            <Link to="/login">
-            <h1 className="header__logo">Shopi</h1>
-            <h1 className="header__logo">fy</h1>
+            <Link className="abc" to="/login">
+            <h1 className="header__logo">Shop</h1>
+            <h1 className="header__logo2">ify</h1>
             
 
             </Link>

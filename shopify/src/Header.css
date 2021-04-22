@@ -3,13 +3,28 @@
     background-color: #131921;
     display: flex;
     align-items: center;
+    position: sticky;
+    top:0;
+    z-index:100;
 }
 .header__logo{
-    width:100px;
+    width:50px;
     object-fit:contain;
     color:antiquewhite;
     margin-top: 18px;
     margin: 0 20px;
+    text-decoration: none;
+    
+
+}
+.abc{
+    display: flex;
+}
+.header__logo2{
+    width:40px;
+    object-fit:contain;
+    color:rgb(218, 152, 32);
+    
     text-decoration: none;
     
 
@@ -30,6 +45,7 @@
 .header__linetwo{
     font-size: 13px;
     font-weight: 800;
+    color:rgb(218, 152, 32);
 }
 .header__nav{
     display: flex;
