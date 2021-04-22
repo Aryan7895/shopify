@@ -23,6 +23,9 @@
 .product >img:hover{
     transform: scale(1.10);
 }
+.product__rating{
+    display: flex;
+}
 .product__info{
     text-align: left;
     height:100px;
