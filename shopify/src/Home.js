@@ -1,22 +1,27 @@
 import React from 'react'
 import './Home.css';
+import Product from './Product';
 
 function Home() {
     return (
 
         <div className="home">
             <div className="home__container">
-            <img className="home__image" src="https://images.unsplash.com/photo-1555529669-26f9d103abdd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+            <img className="home__image" src="https://miro.medium.com/max/3000/1*k1OZBUe6f8pzEbjlYfYZ9A.png"
             alt="diwali "/>
 
           <div className="home__row" >
+              <Product title='the lean startup' price={399}/>
+              <Product/>
               
               </div> 
               <div className="home__row" >
-              
+              <Product/>
+              <Product/>
+              <Product/>
               </div> 
               <div className="home__row" >
-              
+              <Product/>
               </div> 
         </div>
         </div>
