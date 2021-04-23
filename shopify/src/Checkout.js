@@ -14,8 +14,19 @@ function Checkout() {
         Your Shopping Basket
     </h2>
 
-       </div>
-            </div>
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+      
             <div className="checkout__right">
                 <Subtotal/>
             </div>
