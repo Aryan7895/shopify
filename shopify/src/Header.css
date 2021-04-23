@@ -20,6 +20,7 @@
 }
 .abc{
     display: flex;
+    text-decoration: none;
 }
 .header__logo2{
     width:40px;

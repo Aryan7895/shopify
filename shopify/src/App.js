@@ -9,9 +9,10 @@ function App() {
   return (
     <Router>
     <div className="app">
+    <Header/>
     <Switch>
   <Route path="/checkout">
-   <Header/>
+   
    <Checkout/>
     
     
@@ -20,7 +21,7 @@ function App() {
     <h1>Login Page</h1>
   </Route>
   <Route path="/">
-    <Header/>
+    
     <Home/>
     
     
